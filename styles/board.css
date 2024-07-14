@@ -1,0 +1,47 @@
+.header {
+    text-align: center;
+}
+
+.boardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.board {
+    display: grid;
+    height: 300px;
+    width: 300px;
+    grid-template-columns: 100px 100px 100px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border-radius: 1.5px;
+    font-size: 100px;
+    text-align: center;
+}
+
+#square1 {
+    background-color: gray;
+}
+
+#square3 {
+    background-color: gray;
+}
+
+#square5 {
+    background-color: gray;
+}
+
+#square7 {
+    background-color: gray;
+}
+
+#square9 {
+    background-color: gray;
+}
+
